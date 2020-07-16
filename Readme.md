@@ -28,7 +28,7 @@ When you got them run:
 
 Then, Run:
 
-`apt-get install  software-properties-common tor torsocks obfs4proxy -y`
+`sudo apt-get install  software-properties-common tor torsocks obfs4proxy -y`
 
 Now, Run Ooni Probe test:
 
@@ -38,13 +38,13 @@ Now, Run Ooni Probe test:
 
 Then, restart Tor:
 
-`restart tor`
+`sudo systemctl restart tor`
 
 **the last step**
 
 Edit ooniprobe.conf file:
 
-`nano /var/lib/ooni/ooniprobe.conf`
+`sudo nano /var/lib/ooni/ooniprobe.conf`
 
 Remove `#` before `socks_port` and change it to: `9050`
 
