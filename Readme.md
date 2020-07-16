@@ -48,7 +48,7 @@ Edit ooniprobe.conf file:
 
 Remove `#` before `socks_port` and change it to: `9050`
 
-`tor:``socks_port: 9050`
+`socks_port: 9050`
 
 ## Examples of usage
 
