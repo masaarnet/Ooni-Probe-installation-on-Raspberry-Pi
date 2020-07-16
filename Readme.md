@@ -51,3 +51,21 @@ Edit ooniprobe.conf file:
 Remove `#` before `socks_port` and change it to: `9050`
 
 `tor:``socks_port: 9050`
+
+## Examples of usage
+
+Run the web_connectivity test on http://torproject.org:
+
+`ooniprobe web_connectivity --url http://torproject.org/`
+
+Run the http_invalid_request_line test to detect middleboxes:
+
+`ooniprobe http_invalid_request_line`
+
+Run the http_header_field_manipulation test to detect middleboxes:
+
+`ooniprobe http_header_field_manipulation`
+
+List all the available tests:
+
+`ooniprobe -s`
