@@ -3,6 +3,8 @@
 This instruction is only  to install the [old version of Ooni Probe](https://pypi.org/project/ooniprobe/2.3.0/) on Raspberry Pi. This version of Ooni Probe has been discontinued.
 Now, OONI’s team is developing new version based on Go programming language. This version is still not fully operational on Raspberry Pi. You can[ read more here.](https://github.com/ooni/probe)
 
+**Thanks to the ["Icarus" project](https://github.com/icaruslab) ♡**
+
 # Installation
 
 This instruction was tested on:
